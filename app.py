@@ -71,7 +71,7 @@ def calculate_fibonacci_retracements(prices):
 st.title("Crypto Price Prediction using GRU RNN")
 
 # Select cryptocurrency
-crypto_options = ["BTC", "ETH", "SOL", "XRP", "ADA", "DOGE", "USUAL", "RENDER", "XLM", "STX", "TIA"]
+crypto_options = ["BTC", "ETH", "SOL", "XRP", "ADA", "DOGE", "TRUMP", "RENDER", "XLM", "SUI", "NEAR","THETA","IOTA"]
 symbol = st.selectbox("Select Cryptocurrency", crypto_options)
 
 # Select timeframe
